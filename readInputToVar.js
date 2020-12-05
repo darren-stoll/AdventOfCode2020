@@ -19,8 +19,15 @@ var generateInputList = async (txtFile) => {
   }
 }
 
+var testInput = [];
+
 const listTestValue = () => {
+  // return testInput;
   return generateInputList(fileName);
 }
 
-generateInputList(fileName);
+const dayNum = async () => {
+  list = await listTestValue();
+}
+
+dayNum();
