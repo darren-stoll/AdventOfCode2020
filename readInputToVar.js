@@ -4,7 +4,7 @@ const assertEqual = (expected, actual) => {
   console.log(expected === actual);
 }
 
-var fileName = ''
+var fileName = './dayNum.txt'
 
 var generateInputList = async (txtFile) => {
   try {
